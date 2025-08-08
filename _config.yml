@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Qualcomm mainline status
-email: linux-arm-msm@vger.kernel.org
+title: AutoSD Platform Enablement Status
+email: fdarocha@redhat.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Track the upstream status of Qualcomm platforms support
+  Track the enablement status of AutoSD platforms support
 baseurl: "/msm" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: LinaroOrg
-github_username:  Linaro
+twitter_username: ""
+github_username:  f-darocha
 
 # Build settings
 theme: minima
@@ -43,7 +43,7 @@ collections:
     output: true
     permalink: /:collection/:name
   pmic:
-    output: true
+    output: false
     permalink: /:collection/:name
 
 exclude:
